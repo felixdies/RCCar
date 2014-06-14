@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" >
+    <TextView
+        android:id="@+id/tvSailorAddrString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sailor IP : " />
+    <TextView
+        android:id="@+id/tvSailorAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp" >
+
+        <TextView
+            android:id="@+id/tvCaptainAddrString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Captain IP : " />
+
+        <EditText
+            android:id="@+id/etCaptainAddr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10" />
+
+    </LinearLayout>
+    
+    
+    <Button
+        android:id="@+id/btnCaptainAddr"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp" />
+
+</LinearLayout>
